@@ -60,7 +60,7 @@ string is_valid(long n)
         pos++;
     }
 
-    printf("%i, %i, %i\n", sum_even, sum_odd, sum_even + sum_odd);
+    // printf("%i, %i, %i\n", sum_even, sum_odd, sum_even + sum_odd);
 
     // check if is_valid
     if ((sum_even + sum_odd) % 10 != 0)
@@ -77,7 +77,7 @@ string is_valid(long n)
 
     long first_one = first_two / 10;
 
-    printf("%i, %i, %i", first_two, first_one, length);
+    // printf("%i, %i, %i", first_two, first_one, length);
 
     if (length == 15 && (first_two == 34 || first_two == 37))
     {
