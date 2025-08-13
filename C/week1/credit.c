@@ -70,7 +70,7 @@ string is_valid(long n)
 
     long first_two = n_temp2;
 
-    while (first_two >= 100)
+    while (first_two > 100)
     {
         first_two /= 10;
     }
