@@ -1,4 +1,4 @@
-#include <cs50.h>
+#include "include/cs50.h"
 #include <stdio.h>
 
 long get_input(void);

@@ -1,4 +1,4 @@
-#include "cs50_lib/cs50.h"
+#include "include/cs50.h"
 #include <stdio.h>
 
 int get_size(void);
