@@ -17,7 +17,8 @@ I used to write on C, while studing in [National Technical University of Ukraine
 #### Task 1:
 In a file called hello.c
 
-![](https://github.com/mykhailodolitsoi/harvard_cs50x/blob/master/assets/c_t1.gif)
+<img src="https://github.com/mykhailodolitsoi/harvard_cs50x/blob/master/assets/c_t1.gif" width="75%">
+
 
 
 
