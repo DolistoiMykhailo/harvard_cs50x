@@ -49,11 +49,6 @@ void print_pyramid(int n)
             printf("#");
         }
 
-        for (int k = n - i; k > 1; k--)
-        {
-            printf(" ");
-        }
-
         printf("\n");
     }
 }

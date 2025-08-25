@@ -21,32 +21,35 @@
   </tr>
 </table>
 
-
-
-## My path
+# My path
 
 This repository is my path of learning and developing as a programmer.
 
 - [x] C([github_folder](https://github.com/mykhailodolitsoi/harvard_cs50x/tree/master/c)/[go_to_topic](#c-language))
 - [ ] array(in progress)
 
-### C language
+## C language
 I used to write on C, while studing in [National Technical University of Ukraine “Igor Sikorsky Kyiv Polytechnic Institute”](https://kpi.ua/en/about). C is a fundamental language that every programmer should be comfortable with. Nevertheless, the [problem set of **Week 1** in CS50](https://cs50.harvard.edu/x/psets/1/) challenged me and pushed me to think harder than I expected.
 
-#### Task 1:
-In the file hello.c, I implemented a simple program that waits for the user to enter their name and then prints a personalized greeting in the form:
+### Task 1:
+In the file `hello.c`, I implemented a simple program that waits for the user to enter their name and then prints a personalized greeting in the form:
 hello, <*name*>.
 
 The program contains one function:
 
-main — uses the get_string function from the [CS50](https://github.com/cs50/libcs50?search=1) library.
+- `main` - prompts the user for an string using `get_string` function from the [CS50](https://github.com/cs50/libcs50?search=1) library and prints the output.
 
-
+**Preview**:
 ![](https://github.com/mykhailodolitsoi/harvard_cs50x/blob/master/assets/c_t1.gif)
 
-#### Task 2: 
+### Task 2: 
+n the file `mario.c`, I implemented a program that uses loops to create a pair of side-by-side pyramids, one right-aligned and one left-aligned. The height of the pyramids is determined by user input.
 
+The program contains one function:
 
+- `get_size` - prompts the user for an integer using the `get_int` function from the [CS50](https://github.com/cs50/libcs50?search=1) library.
+- print_pyramid - uses the value from get_size function and print pyramid with `n` rows, `k = n - i` spaces and `j` hashes.
+- main - calls functions `get_size` and then `print_pyramid`.
 
-
-
+**Preview**:
+![](https://github.com/mykhailodolitsoi/harvard_cs50x/blob/master/assets/c_t2.gif)
