@@ -37,7 +37,7 @@ The program contains 3 functions:
 - `calculate_change` - takes user's input and divides it by each available coin denomination to get amount of coins to give exactly change.
 - `main` - calls functions `get_change` and then `calculate_change`.
 
-Preview:
+**Preview**:
 ![](https://github.com/mykhailodolitsoi/harvard_cs50x/blob/master/assets/c_t3.gif)
 
 ### Task 4:
@@ -53,5 +53,5 @@ Then the luhn algorithm is aplied:
     4. If the total ends in 0, the card number is valid.
 - `main` - calls functions `get_input` and then `is_valid`.
 
-Preview:
+**Preview**:
 ![](https://github.com/mykhailodolitsoi/harvard_cs50x/blob/master/assets/c_t4.gif)
