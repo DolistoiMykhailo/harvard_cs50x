@@ -1,4 +1,11 @@
+# Pre-information
+
 In this README file I will document the tasks from `c` section of CS50 course with description of functions that I created or/and used.
+
+Tasks
+1. [hello.c](#task-1)
+2. [mario.c](#task-2)
+
 
 ## Task 1:
 In the file `hello.c`, I implemented a simple program that waits for the user to enter their name and then prints a personalized greeting in the form:
